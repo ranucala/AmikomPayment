@@ -1,0 +1,230 @@
+/*navbar*/
+
+.navbar-default {
+    width: 1360px;
+    height: 84px;
+    background-color: #ffffff;
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    margin-left: 55px;
+    margin-bottom: 12px;
+}
+
+.logo {
+    width: 160px;
+    height: 59px;
+}
+
+/*Search button*/
+
+.search {
+    width: 467.5px;
+    height: 35.4px;
+    border-radius: 2.8px;
+    background-color: #ffffff;
+    border: solid 0.7px #dfdfdf;
+    margin-top: 28px;
+    margin-bottom: 20.6px;
+    margin-left: 99px;
+}
+
+.input-group-addon {
+    background-color: white;
+    border: solid 0.7px #dfdfdf;
+}
+
+.form-control {
+    border-color: black;
+    border: solid 0.7px #dfdfdf;
+    border-left: none;
+}
+
+.form-control:focus {
+    border-color: #dfdfdf;
+    box-shadow: none;
+}
+
+.btn-search {
+    width: 87px;
+    height: 34px;
+    border-radius: 3.5px;
+    background-image: radial-gradient(circle at 120% -20%, #ff4bd6, #e14aff 33%, #bd0fe1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+    margin-top: 29px;
+    margin-left: 9.5px;
+    background-image: url(../img/navbar/navbar/Button.png);
+    border: white;
+}
+
+.btn-search:hover {
+    color: white;
+}
+
+/*Button login*/
+
+.btn-login {
+    width: 89px;
+    height: 36px;
+    border-radius: 3.5px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+    border: 0px;
+    background-color: white;
+    margin-top: 29px;
+    margin-left: 278px;
+    background-image: url(../img/navbar/navbar/Button%20masuk.png);
+}
+
+.btn-login:hover {
+    color: #adadad;
+}
+
+#login-dp {
+    min-width: 300px;
+    padding: 14px 14px 0;
+    overflow: hidden;
+    background-color: #fbfaff;
+    margin-left: 85px;
+    margin-top: 18px;
+}
+
+.btn-login1 {
+    width: 222.2px;
+    height: 38.1px;
+    border-radius: 79.4px;
+    border: 0px;
+    background-image: radial-gradient(circle at 120% -20%, #ff4bd6, #e14aff 33%, #bd0fe1);
+    margin-left: 24px;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.left-addon .glyphicon {
+    left: 0px;
+    color: #dad9e3;
+}
+
+.left-addon input {
+    padding-left: 30px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/*Carousel*/
+
+.carousel {
+    width: 1360px;
+    height: 342px;
+    margin-top: 0px;
+}
+
+.carousel .item {
+    width: 1360px;
+    height: 342px;
+    background-color: #777;
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 342px;
+}
+
+.carousel-indicators li {
+    visibility: hidden;
+}
+
+.carousel-caption {
+    margin-left: 575px;
+    margin-bottom: 20px;
+    width: 200px;
+    text-align: left;
+}
+
+.carousel-caption > p {
+    font-family: Montserrat;
+    font-size: 12px;
+    text-align: left;
+    color: #abb6bf;
+}
+
+.carousel-caption > h3 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: #484a51;
+}
+
+.btn-pesan {
+    width: 122px;
+    height: 41px;
+    border-radius: 9px;
+    background-image: radial-gradient(circle at 120% -20%, #ff4bd6, #e14aff 33%, #bd0fe1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+    background-image: url(../img/carousel/carousel/button%20.png);
+    border: transparent;
+}
+
+/*Category*/
+
+.list-group.panel > .list-group-item {
+    border-bottom-right-radius: 4.5px;
+    border-bottom-left-radius: 4.5px;
+    width: 214, 1px;
+    background: white;
+    color: #666;
+    margin-left: 20px;
+}
+
+.list-group-submenu {
+    width: 214.1px;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.kategory {
+    width: 90px;
+    height: 26px;
+    font-family: Montserrat;
+    font-size: 21.3px;
+    text-align: left;
+    color: #38466e;
+    margin-left: 22px;
+}
+
+#main-menu {
+    margin-left: 38px;
+    margin-top: 20px;
+    background: white;
+}
+
+.list-group-item {
+    border: 1px solid white;
+    font-family: Roboto;
+    width: 214, 1px;
+}
+
+.list-group-submenu {
+    padding-left: 30px;
+}
+
+.list-group {
+    box-shadow: 0 12px 26px 5px rgba(121, 121, 121, 0.1);
+    width: 220px;
+}
