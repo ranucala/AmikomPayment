@@ -1,3 +1,6 @@
+<?php
+include('login.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -38,8 +41,15 @@
                     <button type="submit" name="search" class="btn btn-search">
                         </button>
                 </li>
-
-                <li class="dropdown">
+        <?php
+//                sesudah login
+                if(isset($_SESSION['login_user'])){
+                    echo $_SESSION['login_user'];
+                    echo "<a href='logout.php'>Logout</a>";
+                }
+                else
+//                 sebelum login
+                echo '<li class="dropdown">
                     <button type="button" name="login" class="btn btn-login dropdown-toggle" data-toggle="dropdown">
                         </button>
                     <ul id="login-dp" class="dropdown-menu">
@@ -54,7 +64,7 @@
                                         </div>
                                         <div class="form-group inner-addon left-addon">
                                             <i class="glyphicon glyphicon-lock"></i>
-                                            <label class="sr-only" >Password</label>
+                                            <label class="sr-only">Password</label>
                                             <input name="password" type="password" class="form-control" placeholder="Password" required>
                                         </div>
                                         <div class="form-group">
@@ -65,8 +75,8 @@
                             </div>
                         </li>
                     </ul>
-                </li>
-
+                </li>';
+?>
             </ul>
         </div>
     </nav>
@@ -151,7 +161,7 @@
                 <a href="#" class="list-group-item"><input type="checkbox">&nbsp; PBS</a>
                 <a href="#" class="list-group-item"><input type="checkbox">&nbsp; Teach Engineering</a>
             </div>
-        </div>      
+        </div>
     </div>
 
 </body>
