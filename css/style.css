@@ -4,7 +4,6 @@
     width: 1360px;
     height: 84px;
     background-color: #ffffff;
-    margin-bottom: 0px;
 }
 
 .navbar-brand {
@@ -22,9 +21,9 @@
 .search {
     width: 467.5px;
     height: 35.4px;
-    border-radius: 2.8px;
+    border-radius: 2.8px 2.8px;
     background-color: #ffffff;
-    border: solid 0.7px #dfdfdf;
+    border: solid 1px #dfdfdf;
     margin-top: 28px;
     margin-bottom: 20.6px;
     margin-left: 99px;
@@ -43,14 +42,12 @@
 
 .form-control:focus {
     border-color: #dfdfdf;
-    box-shadow: none;
 }
 
 .btn-search {
     width: 87px;
     height: 34px;
-    border-radius: 3.5px;
-    background-image: radial-gradient(circle at 120% -20%, #ff4bd6, #e14aff 33%, #bd0fe1);
+    border-radius: 3.5px 3.5px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
     margin-top: 29px;
     margin-left: 9.5px;
@@ -105,7 +102,6 @@
 .inner-addon .glyphicon {
     position: absolute;
     padding: 10px;
-    pointer-events: none;
 }
 
 .left-addon .glyphicon {
@@ -184,7 +180,7 @@
 .list-group.panel > .list-group-item {
     border-bottom-right-radius: 4.5px;
     border-bottom-left-radius: 4.5px;
-    width: 214, 1px;
+    width: 214px;
     background: white;
     color: #666;
     margin-left: 20px;
@@ -217,7 +213,7 @@
 .list-group-item {
     border: 1px solid white;
     font-family: Roboto;
-    width: 214, 1px;
+    width: 214px;
 }
 
 .list-group-submenu {
@@ -227,4 +223,14 @@
 .list-group {
     box-shadow: 0 12px 26px 5px rgba(121, 121, 121, 0.1);
     width: 220px;
+}
+
+/*topup*/
+/*tabel profile*/
+
+.profile{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    box-shadow: 0 0 7px 4px #cab3b3;
 }
