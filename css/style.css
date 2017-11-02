@@ -233,17 +233,50 @@
     margin-top: 30px;
     margin-left: 20px;
     text-align: left;
-    box-shadow: 0 0 7px 4px #cab3b3;
+    box-shadow: 0 0 10px 1px #cab3b3;
     padding: 20px 20px 20px 20px;
+}
+
+.profile img{
+    display: block;
+    margin: auto;
+    width: 75px;
+    height: 75px;
 }
 
 .profile-center{
     text-align: center;
 }
 
-.topup{
+.topup {
     float: right;
     width: 680px;
-    margin-top: -410px;
-    margin-right: 400px;
+    margin-top: -460px;
+    margin-right: 400px;   
+}
+.topup table{
+    box-shadow: 0 0 10px 1px #cab3b3;
+
+}
+.btnnom{
+    height: 60px;
+    width: 145px;
+    background-color: white;
+    border-color: purple;
+    font-size: 20px;
+}
+.topup th{
+    font-size: 22px;
+    padding: 10px 10px 10px 20px;
+    border-bottom-color: black;
+    background-color: #d6d6d6;
+    color: #777776;
+}
+.topup td{
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #777776;
 }

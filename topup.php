@@ -21,19 +21,30 @@
 </div>
 <div class="topup">
     <table>
+       <form action="/action_page.php" method="post">
         <tr>
-            <th>TOPUP</th>
+            <th colspan="8">TOPUP</th>
         </tr>
         <tr>
             <td>Pilih Nominal</td>
         </tr>
         <tr>
-            <td><button type="button" class="btn btnnom">50.000</button></td>
-            <td><button type="button" class="btn btnnom">100.000</button></td>
-            <td><button type="button" class="btn btnnom">200.000</button></td>
-            <td><button type="button" class="btn btnnom">300.000</button></td>
-            <td><button type="button" class="btn btnnom">500.000</button></td>
+            <td><button type="button" name="nominal" class="btn btnnom" value="50">Rp. 50.000</button></td>
+            <td><button type="button" name="nominal" class="btn btnnom" value="100">Rp. 100.000</button></td>
+            <td><button type="button" name="nominal" class="btn btnnom" value="250">Rp. 200.000</button></td>
+            <td><button type="button" name="nominal" class="btn btnnom" value="300">Rp. 300.000</button></td>
+            <td><button type="button" name="nominal" class="btn btnnom" value="500">Rp. 500.000</button></td>
         </tr>
+        <tr>
+            <td colspan="8">Pilih Nominal Lainnya</td>
+        </tr>
+        <tr>
+            <td colspan="8"><input type="text" name="nominal" size="90"></td>
+        </tr>
+        <tr>
+            <td colspan="8">Pilih Metode Pembayaran Transfer</td>
+        </tr>
+        </form>
     </table>
 </div>
 
