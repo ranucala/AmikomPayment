@@ -29,11 +29,34 @@
             <td>Pilih Nominal</td>
         </tr>
         <tr>
-            <td><button type="button" name="nominal" class="btn btnnom" value="50">Rp. 50.000</button></td>
-            <td><button type="button" name="nominal" class="btn btnnom" value="100">Rp. 100.000</button></td>
-            <td><button type="button" name="nominal" class="btn btnnom" value="250">Rp. 200.000</button></td>
-            <td><button type="button" name="nominal" class="btn btnnom" value="300">Rp. 300.000</button></td>
-            <td><button type="button" name="nominal" class="btn btnnom" value="500">Rp. 500.000</button></td>
+          <div class="btn-group" data-toggle="buttons">
+           <td>
+           <label class="btn btnnom">
+            <input type="radio" name="nominal" value="50" autocomplete="off">
+            Rp. 50.000
+            </label>
+            </td>
+            <td>
+            <label class="btn btnnom">
+            <input type="radio" name="nominal" value="100" autocomplete="off">Rp. 100.000
+            </label>
+            </td>
+            <td>
+            <label class="btn btnnom">
+            <input type="radio" name="nominal" value="200" autocomplete="off">Rp. 200.000
+            </label>
+            </td>
+            <td>
+            <label class="btn btnnom">
+            <input type="radio" name="nominal" value="300" autocomplete="off">Rp. 300.000
+            </label>
+            </td>
+            <td>
+            <label class="btn btnnom">
+            <input type="radio" name="nominal" value="500" autocomplete="off">Rp. 500.000
+            </label>
+            </td>
+            </div>
         </tr>
         <tr>
             <td colspan="8">Pilih Nominal Lainnya</td>
