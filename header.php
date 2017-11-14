@@ -45,7 +45,7 @@ include('login.php');
 //                sesudah login
                 if(isset($_SESSION['login_user'])){
                     echo $_SESSION['login_user'];
-                    echo "<a href='logout.php'>Logout</a>";
+                    echo "<a href='logout.php'> Logout</a>";
                 }
                 else
 //                 sebelum login

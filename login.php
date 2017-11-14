@@ -9,7 +9,7 @@ if (isset($_POST['identity'])) {
             $identity = $key['Identity'];
             $pass = $key['Password'];
                 if(($identity == $username)&&($pass == $password)){
-                    $_SESSION['login_user']=$username;
+                    $_SESSION['login_user']=$identity;
                     header('Location: index.php');
                 }
                 else if(($identity != $username)and($pass != $password))
